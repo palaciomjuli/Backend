@@ -1,7 +1,7 @@
 # Sistema de reserva de turnos
 ___
 
-Proyecto final para la materia Backend 01 de la carrera Certified Tech Developer
+Proyecto final para la materia Backend.
 
 ## Instrucciones
 
