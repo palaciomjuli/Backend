@@ -1,0 +1,150 @@
+*{
+    font-family: 'Roboto', serif;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #dff7e9;    
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;     
+    font-size: 26px;
+}
+
+.logo p{
+    margin:0;    
+}
+
+.cursiva {
+    padding-left: 5px;
+    font-family: 'Dancing Script';
+    font-size: 37px;       
+}
+
+.dropdown{
+    margin-right: 20px;
+    
+}
+
+.container-fondo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;   
+    width:100vw;       
+}
+
+.imagen-fondo {   
+    width: 55%;   
+   height: 100%;
+       
+}
+
+.main-container-admin{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: 20px;
+    
+}
+
+.titulo-fondo {     
+   width: 85%;
+    font-size: 40px;
+    text-align: left;       
+    margin-bottom: 40px;
+}
+
+.opciones-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width:95%;
+    margin-left:5px
+}
+
+
+.lista-inicio{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-inicio li {
+    background-color: #ACE2E1;
+    padding:5px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 100%;
+}
+
+a:link, a:visited, a:active{
+    padding: 4px 25px;
+    
+    
+    color: #fff;
+    border-radius: 4px;
+    text-decoration:none;
+}
+
+.lista-inicio li:hover {
+    background-color: #008DDA;
+    transition: ease .8s;
+    cursor: pointer;
+    
+}
+
+
+
+a:active{
+    padding: 4px 25px;
+    background: rgba(20, 20, 20, 0.95);
+    border: 1px solid rgba(154, 150, 150, 0.804);
+    color: #fff;
+    border-radius: 4px;
+    text-decoration:none;
+    
+}
+
+h5{
+    margin-bottom: 45px;
+}
+
+
+.footer{
+    background-color: #2885ff;
+    height: 48px; 
+    display: flex;  
+    flex-direction: column; 
+    text-align: center;  
+    justify-content: center; 
+    bottom: 0;
+   
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
